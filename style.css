@@ -24,26 +24,23 @@
     width: 100vw;
     display: flex;
     margin-top: 1rem;
-    /* align-content: center; */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .header__a{
     text-decoration: none;
-    margin: 2rem;
+    margin: 1rem;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
 }
-.title1{
+.title{
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-top: 20rem;
+    margin-top: 8rem;
     display: flex;
 }
 .container{
@@ -55,13 +52,11 @@
 .title1{
     word-wrap: normal;
     display: flex;
-    height: 180px;
     width: 797px;
     flex-direction: column;
-    flex-shrink: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 800;
 }
 .button{
@@ -72,26 +67,6 @@
     gap: 10px;
     border-radius: 50px;
     background: var(--grad-2, linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%));
-    z-index: 6;
-}
-.button::after{
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 100%;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    background-color: #663dff;
-    border-radius: 5px;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
-    transition: all 0.3s ease;
-}
-.button:hover{
-    color: #fff;
-}
-.button:active {
-    top: 2px;
 }
 .button1{
     color: #fff;
@@ -107,7 +82,7 @@
 .dhms{
     margin: 1rem;
     display: flex;
-    padding: 20px 30px;
+    padding: 15px 25px;
     background: #121212;
     flex-direction: column;
 }
@@ -126,6 +101,54 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    opacity: 0.4000000059604645;
 }
+.bottom__main{
+    background: #121212;
+    height: 130px;
+    width: 100vw;
+    flex-shrink: 0;
+    position: relative;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
 
+}
+.course__button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    background: var(--grad-1, linear-gradient(141deg, #DF5950 0%, #451046 100%));
+    border-radius: 50px;
+}
+.bot__button__text{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.people{
+    color: var(--white, #FFF);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.4000000059604645;
+}
+.people__count{
+    color: var(--white, #FFF);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%
+}
 
