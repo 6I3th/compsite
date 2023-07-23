@@ -18,10 +18,9 @@
 }
 .header__link{
     display: flex;
-
 }
 .header__wrapp{
-    width: 100vw;
+    width: 100%;
     display: flex;
     margin-top: 1rem;
     display: flex;
@@ -30,17 +29,17 @@
 }
 .header__a{
     text-decoration: none;
-    margin: 1rem;
+    margin: 1.4rem;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
 
 }
 .title{
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 10rem;
     display: flex;
 }
 .container{
@@ -48,15 +47,16 @@
     max-width: 1400px;
     width: 1400px;
     max-height: 1000px;
+    justify-content: center;
 }
 .title1{
     word-wrap: normal;
     display: flex;
-    width: 797px;
+    width: 780px;
     flex-direction: column;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 800;
 }
 .button{
@@ -70,7 +70,7 @@
 }
 .button1{
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -85,11 +85,12 @@
     padding: 15px 25px;
     background: #121212;
     flex-direction: column;
+    align-items: center;
 }
 .time{
     color: var(--white, #FFF);
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 140%;
@@ -97,22 +98,25 @@
 .time__dhms{
     color: #FFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
     opacity: 0.4000000059604645;
 }
-.bottom__main{
+/* .bottom__main{
+    display: flex;
     background: #121212;
     height: 130px;
     width: 100vw;
     flex-shrink: 0;
-    position: relative;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .bottom{
+    vertical-align: bottom;
     display: flex;
-    justify-content: center;
 
 }
 .course__button{
@@ -151,4 +155,8 @@
     font-weight: 700;
     line-height: 150%
 }
+.bottom__wrapp{
+    display: flex;
+    vertical-align: bottom;
+} */
 
