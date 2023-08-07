@@ -236,3 +236,7 @@
     justify-content: space-around;
     height: 6rem;   
 }
+.main{
+    background: url(img/mainbcg.png);
+    
+}
