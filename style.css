@@ -8,7 +8,7 @@
 }
 .header{
     flex-direction: column;
-    width: 99vw;
+    width: 100vw;
     display: flex;
     background: url(img/background.jpg);
     background-position: center center;
@@ -178,7 +178,7 @@
 }
 .money__people{
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -188,14 +188,14 @@
 }
 .money__earned{
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 700;
 }
 .goal{
     color: var(--white, #FFF);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -204,7 +204,7 @@
 .goal__million{
     color: var(--white, #FFF);
     text-align: right;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -240,10 +240,45 @@
     justify-content: center;
     height: 6rem;   
 }
-.grid{
+.main{
     background: url(/img/mainbcg.png),lightgray 0% 0% / 50px 50px repeat;
     background-size: cover;
-    width: 99vw;
-    height: 6599px;
-
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.about__text__b{
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.about__text__m{
+    color: var(--white, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.container__main{
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+}
+.about__comp{
+    height: 346px;
+    width: 346px;
+}
+.about{
+    display: flex;
+}
+.about__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18rem;
+    justify-content: center;
+    align-items: flex-start;
 }
