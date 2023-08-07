@@ -3,25 +3,27 @@
     padding: 0;
     border: 0;
 }
+.body{
+    overflow-x:hidden
+}
 .header{
     flex-direction: column;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     background: url(img/background.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 99.35vh;
+    height: 99.99vh;
     justify-content: space-between;
 }
 .header__link{
     display: flex;
 }
 .header__wrapp{
+    flex-direction: row;
     width: 100%;
-    display: flex;
-    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,17 +52,17 @@
 .title1{
     word-wrap: normal;
     display: flex;
-    width: 780px;
+    width: 870px;
     flex-direction: column;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 800;
 }
 .button{
     cursor: pointer;
     display: inline-flex;
-    padding: 10px 30px;
+    padding: 8px 28px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -79,7 +81,7 @@
     flex-direction: row;
 }
 .dhms{
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     padding: 15px 25px;
     background: #121212;
@@ -89,7 +91,7 @@
 .time{
     color: var(--white, #FFF);
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 140%;
@@ -106,11 +108,11 @@
 .bottom__main{
     display: flex;
     background: #121212;
-    height: 130px;
+    height: 96px;
     width: 100vw;
     flex-shrink: 0;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .bottom{
@@ -123,7 +125,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 30px;
+    padding: 8px 30px;
     background: var(--grad-1, linear-gradient(141deg, #DF5950 0%, #451046 100%));
     border-radius: 50px;
 }
@@ -132,7 +134,7 @@
     color: #FFF;
     text-align: center;
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
@@ -140,7 +142,7 @@
 .people{
     color: var(--white, #FFF);
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -149,7 +151,7 @@
 .people__count{
     color: var(--white, #FFF);
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%
@@ -160,24 +162,24 @@
 .members__main{
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 13rem;
 }
 .line{
     background: var(--white, #FFF);
-    width: 714px;
-    height: 6px;
+    width: 500px;
+    height: 4px;
     flex-shrink: 0;
 }
 .line__gradient{
-    width: 440px;
-    height: 6px;
+    width: 240px;
+    height: 4px;
     flex-shrink: 0;
     background: var(--grad-1, linear-gradient(141deg, #DF5950 0%, #451046 100%));
 }
 .money__people{
     color: var(--white, #FFF);
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -187,14 +189,14 @@
 .money__earned{
     color: var(--white, #FFF);
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 700;
 }
 .goal{
     color: var(--white, #FFF);
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     opacity: 0.4;
@@ -203,7 +205,7 @@
     color: var(--white, #FFF);
     text-align: right;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     opacity: 0.4;
@@ -221,11 +223,13 @@
     margin: 5px;
 }
 .money__result{
+    margin-bottom: 0.4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 .money__goal{
+    margin-top: 0.4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -233,10 +237,13 @@
 .money__main{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     height: 6rem;   
 }
-.main{
-    background: url(img/mainbcg.png);
-    
+.grid{
+    background: url(/img/mainbcg.png),lightgray 0% 0% / 50px 50px repeat;
+    background-size: cover;
+    width: 99vw;
+    height: 6599px;
+
 }
