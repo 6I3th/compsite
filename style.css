@@ -288,16 +288,18 @@
 }
 .start{
     display: flex;
+    flex-direction: column;
 }
 .start__text__b{
     color: var(--white, #FFF);
     text-align: right;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
 }
 .start__text__m{
+    max-width: 330px;
     color: var(--white, #FFF);
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -307,7 +309,78 @@
 }
 .eclipse{
     display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 .eclipse__text{
     display: flex;
+}
+.start__100{
+    color: var(--white, #FFF);
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+}
+.start__100__expl{
+    color: var(--white, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.rectangle__100{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    width: 250px;
+    height: 60px;
+    background: var(--grad-2, linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%));
+}
+.rectangle__75{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    background: var(--grad-2, linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%));
+    width: 250px;
+    height: 40px;
+}
+.rectangle__50{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background: var(--grad-2, linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%));
+    width: 250px;
+    height: 20px;
+}
+.rectangle__total{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background: var(--grad-2, linear-gradient(142deg, #C89AFC 0%, #7C6AFA 100%));
+    width: 250px;
+    height: 10px;
+}
+.start__infographic{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.start__infograph__100{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.start__infograph__75{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.start__infograph__50{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.start__infograph__total{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
