@@ -437,6 +437,9 @@
   text-align: center;
   max-width: 250px;
 }
+.partners{
+  height: 787px;
+}
 .partners__svg {
   margin-left: 4rem;
   margin-top: 10rem;
@@ -465,12 +468,13 @@
   align-items: center;
 }
 .parent {
+  align-items: center;
   flex-direction: column;
   display: flex;
   grid-template-columns: repeat(4, 190px);
   grid-template-rows: 64px 60px;
   grid-column-gap: 24px;
-  grid-row-gap: 33px;
+  /* grid-row-gap: 33px; */
 }
 .div1 {
     margin: 1.5rem;
@@ -512,15 +516,56 @@
   display: flex;
   flex-direction: row;
 }
-/* .logo__msi__line{
-    width: 1296px;
-    height: 1px;
-    opacity: 0.3;
-    background: #FFF;
+.logo__msi__wrapp2 {
+  display: flex;
+  flex-direction: row;
 }
-.logo__msi__line_v{
-    width: 1px;
-    height: 300px;
-    opacity: 0.3;
-    background: #FFF;
-} */
+.logo__msi__line{
+  position: relative;
+  top: -1px;
+  bottom: 0px;
+  left: -3px;
+  right: -104px;
+  width: 816px;
+  height: 1px;
+  opacity: 0.3;
+  background: #FFF;
+}
+.vertical__lines__partners{
+  display: flex;
+  flex-direction: row;
+}
+.logo__msi__line_v1{
+  position: relative;
+  top: -235px;
+  bottom: 0px;
+  left: -189px;
+  right: 0px;
+  width: 1px;
+  height: 225px;
+  opacity: 0.3;
+  background: #FFF;
+}
+.logo__msi__line_v2{
+  position: relative;
+  top: -235px;
+  left: -3px;
+  width: 1px;
+  height: 225px;
+  opacity: 0.3;
+  background: #FFF;
+}
+.logo__msi__line_v3{
+  position: relative;
+  top: -235px;
+  left: 196px;
+  width: 1px;
+  height: 225px;
+  opacity: 0.3;
+  background: #FFF;
+}
+.edu__svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
