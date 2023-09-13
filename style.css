@@ -566,6 +566,96 @@
 }
 .edu__svg{
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.edu__svg__text__b{
+    margin-top: 31.2px;
+    color: var(--white, #fff);
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.edu__svg__text__m{
+    margin-top: 30px;
+    max-width: 350px;
+    color: var(--white, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.edu__timeline{
+  width: 6px;
+  height: 677px;
+  background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
+}
+.edu__weeks{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.edu__week__text__m{
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.edu__week__text__b{
+  margin-top: 15px;
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.edu__week__1{
+  display: flex;
+  max-width: 364px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__1__text{
+  display: flex;
+  max-width: 304px;
+  max-height: 95px;
+  flex-direction: column;
+  text-align: end;
+}
+.edu__week__1__line{
+  margin-left: 20px;
+  width: 40px;
+  height: 2px;
+  opacity: 0.3;
+  background: #FFF;
+}
+.edu__week__2{
+  margin-top: 57px;
+  display: flex;
+  max-width: 380px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__2__text{
+  display: flex;
+  max-width: 304px;
+  max-height: 95px;
+  flex-direction: column;
+  text-align: start;
+}
+.edu__week__2__line{
+  margin-right: 36px;
+  width: 40px;
+  height: 2px;
+  opacity: 0.3;
+  background: #FFF;
 }
