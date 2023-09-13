@@ -591,8 +591,8 @@
     opacity: 0.4;
 }
 .edu__timeline{
-  width: 6px;
-  height: 677px;
+  width: 5px;
+  height: 528px;
   background: var(--grad2, linear-gradient(94deg, #C89AFC 9.51%, #7C6AFA 90.23%));
 }
 .edu__weeks{
@@ -617,6 +617,7 @@
   font-weight: 500;
 }
 .edu__week__1{
+  margin-top: 10px;
   display: flex;
   max-width: 364px;
   max-height: 95px;
@@ -638,7 +639,7 @@
   background: #FFF;
 }
 .edu__week__2{
-  margin-top: 57px;
+  margin-top: 82px;
   display: flex;
   max-width: 380px;
   max-height: 95px;
@@ -658,4 +659,120 @@
   height: 2px;
   opacity: 0.3;
   background: #FFF;
+}
+.edu__week__3{
+  margin-top: 71px;
+  display: flex;
+  max-width: 364px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__4{
+  margin-top: 72px;
+  display: flex;
+  max-width: 380px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__5{
+  margin-top: 72px;
+  display: flex;
+  max-width: 364px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__6{
+  margin-top: 72px;
+  display: flex;
+  max-width: 380px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.edu__week__7{
+  margin-top: 72px;
+  display: flex;
+  max-width: 364px;
+  max-height: 95px;
+  flex-direction: row;
+  align-items: center;
+}
+.teachers{
+  margin-top: 170px;
+}
+.teachers__svg__text{
+    color: var(--white, #fff);
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700; 
+}
+.teachers__svg{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.teachers__teacher{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.teacher__1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.teacher1__png{
+  width: 190px;
+  height: 190px;
+  border-radius: 190px;
+}
+.teacher__1__text__b{ 
+    margin-top: 40px;
+    color: var(--white, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.teacher__1__text__m{
+  margin-top: 15px;
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.teacher__1__bio{
+  cursor: pointer;
+  margin-top: 40px;
+  display: inline-flex;
+  padding: 6px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid var(--white, #FFF);
+}
+.teacher__1__bio__text{
+  text-decoration: none;
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+.teacher__2{
+  text-align: center;
+}
+.teacher__3{
+  text-align: center;
 }
