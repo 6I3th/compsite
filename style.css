@@ -776,3 +776,43 @@
 .teacher__3{
   text-align: center;
 }
+.footer{
+  margin-top: 200px;
+}
+.footer__head__text__b{
+    color: var(--white, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.footer__head__text__m{
+    width: 350px;
+    margin-top: 30px;
+    color: var(--white, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.footer__head{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.email__input{
+  width: 266px;
+  height: 30px;
+  border-radius: 50px 0px 0px 50px;
+  opacity: 0.25;
+  background: var(--white, #FFF);
+}
+.footer__email{
+  display: flex;
+  justify-content: center;
+}
+.footer__main{
+  margin-top: 60px;
+}
