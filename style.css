@@ -603,7 +603,7 @@
 .edu__week__text__m{
   color: var(--white, #fff);
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   opacity: 0.4;
@@ -745,7 +745,7 @@
   margin-top: 15px;
   color: var(--white, #fff);
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   opacity: 0.4;
@@ -804,9 +804,9 @@
 }
 .email__input{
   width: 266px;
-  height: 30px;
+  height: 35px;
   border-radius: 50px 0px 0px 50px;
-  opacity: 0.25;
+  opacity: 0.2;
   background: var(--white, #FFF);
 }
 .footer__email{
@@ -815,4 +815,74 @@
 }
 .footer__main{
   margin-top: 60px;
+}
+.email__button{
+  cursor: pointer;
+  position: relative;
+  left: -20px;
+  display: inline-flex;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(--grad1, linear-gradient(95deg, #DF5950 11.19%, #451046 93.72%));
+}
+.email__button__text{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white, #fff);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.footer__email__box{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.email__input__text{
+  border-radius: 50px 0px 0px 50px;
+  width: 266px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  text-emphasis-color: #fff;
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400; 
+}
+.footer__soc{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+.soc__1{
+  margin-right: 30px;
+}
+.soc__2{
+  margin-right: 30px;
+}
+.soc__3{
+  margin-right: 30px;
+}
+.footer__soc__icons{
+  position: relative;
+  bottom: 41px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.soc__icon__1{
+  margin-right: 57px;
+}
+.soc__icon__2{
+  margin-right: 55px;
+}
+.soc__icon__3{
+  margin-right: 57px;
 }
