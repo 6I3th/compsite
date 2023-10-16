@@ -75,11 +75,11 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
-.timer__wrapp {
+.countdown {
   display: flex;
   flex-direction: row;
 }
-.dhms {
+.countdown-number {
   margin: 0.5rem;
   display: flex;
   padding: 15px 25px;
@@ -87,7 +87,7 @@
   flex-direction: column;
   align-items: center;
 }
-.time {
+/* .days countdown-timeime {
   color: var(--white, #fff);
   font-family: "Roboto", sans-serif;
   font-size: 25px;
@@ -95,7 +95,31 @@
   font-weight: 700;
   line-height: 140%;
 }
-.time__dhms {
+.hours countdown-time{
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.minutes countdown-time{
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+} */
+.countdown-time{
+  color: var(--white, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.countdown-text {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
